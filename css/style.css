@@ -44,8 +44,10 @@ h2 {
 
 #bio-image {
     float: left;
+    /* I specified the height 200px within the tag, as it was not clear to do so in the CSS */
     width: 200px;
-    /*This margin spec was at my discretion, to make it look like the demo. */
+    /*This margin spec was at my discretion, to make it look like the demo.
+    In the crib solution, they use margin-right: 20px */
     margin-right: 3%;
 }
 
