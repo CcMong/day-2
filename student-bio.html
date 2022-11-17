@@ -4,31 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Student Bio</title>
 </head>
+
 <body>
     <!-- Heading -->
-    <h1>Student Bio</h1> 
+    <header>
+        <h1>Student Bio</h1> 
+    </header>
+
+    <div class="container">
+
+        <section id="main-bio">
     
-    <h2>Charles Mong</h2>
+            <h2>Charles Mong</h2>
 
-    <img src="C:\Users\charl\Pictures\IMG_1012.jpg" width="200" height="200">
+            <img src="C:\Users\charl\Pictures\IMG_1012.jpg" alt="Charles Mong" id="bio-image" height="200px">
 
-    <div>
-        <p>
-            Aspiring full-stack web developer with an entrepreneurial streak.<br>
-            Looking forward to completing the bootcamp and doing this for real.
-        </p>
+            <!-- Made the image height 200px to match the demo, even though it wasn't required.
+            Width is addressed within the style sheet. -->
+    
+            <p>
+                Aspiring full-stack web developer with an entrepreneurial streak.<br>
+                Looking forward to completing the bootcamp and doing this for real.
+            </p>
+    
+        </section>
+
+        <section id="contact-info">
+
+            <h2>Contact Information</h2>
+
+            <ul>
+                <li><strong>Email:</strong> <a href="#">fullstackcodex@gmail.com</a></li>        
+                <li><strong>GitHub:</strong> <a href="#">My GitHub Page</a></li>
+                <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
+
+            </ul>
+
+        </section>
+
     </div>
 
-    <h2>Contact Information</h2>
-
-    <ul>
-        <li><strong>Email:</strong> <a href="#">fullstackcodex@gmail.com</a></li>        
-        <li><strong>GitHub:</strong> <a href="#">My GitHub Page</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-
-    </ul>
-
 </body>
+
 </html>
